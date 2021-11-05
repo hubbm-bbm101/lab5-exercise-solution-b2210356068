@@ -1,7 +1,7 @@
 #exercise3
 import random
 number=random.randint(1,100)
-guess=(int(input("Please guess the number : ")))
+guess=(int(input("Please guess the number between 1 and 100 : ")))
 
 while guess!=number :
     if guess<number:
